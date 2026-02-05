@@ -1,0 +1,35 @@
+[33mcommit 89684e3b8d12175320387f099b685445edc1bc71[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Judd Ebert <juddebert@yahoo.com>
+Date:   Tue May 13 22:43:09 2025 -0400
+
+    auth wardrobe
+
+[1mdiff --git a/fashionfrontend/lib/views/pages/heart_page.dart b/fashionfrontend/lib/views/pages/heart_page.dart[m
+[1mindex 9acd1f9..a920664 100644[m
+[1m--- a/fashionfrontend/lib/views/pages/heart_page.dart[m
+[1m+++ b/fashionfrontend/lib/views/pages/heart_page.dart[m
+[36m@@ -32,7 +32,6 @@[m [mclass HeartPageState extends State<HeartPage>[m
+   @override[m
+   void initState() {[m
+     super.initState();[m
+[31m-    print("hi");[m
+     fetchLikedProducts();[m
+   }[m
+ [m
+[36m@@ -53,7 +52,7 @@[m [mclass HeartPageState extends State<HeartPage>[m
+         options: Options([m
+           headers: {[m
+             'Authorization':[m
+[31m-                'Bearer $idToken', // Pass the token in Authorization header[m
+[32m+[m[32m                'Token $idToken', // Pass the token in Authorization header[m
+           },[m
+         ),[m
+       );[m
+[36m@@ -179,7 +178,6 @@[m [mFuture<void> createWardrobe(context, mounted) async {[m
+       }));[m
+ [m
+   if (response.statusCode == 201) {[m
+[31m-    print("wardrobe successful");[m
+     if (mounted) {[m
+       Navigator.of(context).pop(); // Close loading dialog[m
+       ScaffoldMessenger.of(context).showSnackBar([m

@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "205621401825",
+    "project_id": "axent-579ca",
+    "storage_bucket": "axent-579ca.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205621401825:android:d77121905770db93793fa0",
+        "android_client_info": {
+          "package_name": "com.example.Axent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205621401825-icq2oa0h5d4kf9ifof4ecsgggcdmt8f1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.Axent",
+            "certificate_hash": "be9be3d3a6a93a56dfced1be97e8e024154af7e8"
+          }
+        },
+        {
+          "client_id": "205621401825-1qrhrrvqugodt9t2089jccokqof95elk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGck3b5njuOnXgsnlEJ5c4hk2GgL8WJzQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205621401825-1qrhrrvqugodt9t2089jccokqof95elk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "205621401825-6uvekjga3qq3hm2r6jvfng5rb8mtj7oh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.fashionfrontend"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205621401825:android:e2709a33448395c9793fa0",
+        "android_client_info": {
+          "package_name": "com.example.fashionfrontend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205621401825-r2rq51d13q3emplta66mamepjao69a2f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fashionfrontend",
+            "certificate_hash": "65e9501ae9214c191250a487526b36f3283d9457"
+          }
+        },
+        {
+          "client_id": "205621401825-1qrhrrvqugodt9t2089jccokqof95elk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGck3b5njuOnXgsnlEJ5c4hk2GgL8WJzQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205621401825-1qrhrrvqugodt9t2089jccokqof95elk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "205621401825-6uvekjga3qq3hm2r6jvfng5rb8mtj7oh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.fashionfrontend"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
