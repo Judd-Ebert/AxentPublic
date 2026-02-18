@@ -2,7 +2,8 @@
 
 ## Video Demonstration
 The following video demonstration was created for the Congressional App Challenge. It shows most frontend features as they worked during production.
-[![Axent Demonstration](https://www.youtube.com/watch?v=fZqzCwPPBEk&t=2s)](https://www.youtube.com)
+
+[![Axent Demonstration](https://www.youtube.com/watch?v=fZqzCwPPBEk&t=2s)]
 
 
 
