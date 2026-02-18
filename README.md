@@ -2,7 +2,8 @@
 
 ## Video Demonstration
 The following video demonstration was created for the Congressional App Challenge. It shows most frontend features as they worked during production.
-https://www.youtube.com/watch?v=fZqzCwPPBEk&t=2s
+<video src="https://www.youtube.com/watch?v=fZqzCwPPBEk&t=2s" controls title="Axent Demonstration"></video>
+
 
 ## What it is
 Axent is a legacy project (no longer in development/working) designed to be a "tinder for fashion."
